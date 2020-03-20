@@ -1,0 +1,115 @@
+body
+{
+    background-color: #18191d;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.p1
+{
+    font-size: 25px;
+    font-family: georgia, serif;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    margin-left: 115px;
+}
+.p2
+{
+    font-size: 12.5px;
+    font-family: cursive;
+    color: white;
+    text-align: left;
+    margin-left: 85px;
+    margin-top: -35px;
+}
+.gauche
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: left;
+    margin-left: 15px;
+    margin-top: 55px;
+}
+.logo
+{
+    width: 55px;
+    height: 55px;
+    margin-left: 65px;
+    margin-top: 55px;
+    justify-content: center;
+}
+.paragraphe3
+{
+    display: block;
+    display: block;
+    block-size: auto;
+    background-color: #565b61;
+    margin-left: 5px;
+}
+.p3
+{
+    font-size: 13px;
+    font-family: fantasy;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+}
+.paragraphe4-5
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 115px;
+    margin-top: 15px;
+}
+.p4
+{
+    font-size: 13px;
+    font-family: fantasy;
+    text-align: left;
+    margin-left: 45px;
+    color: white;
+}
+.p5
+{
+    font-size: 13px;
+    font-family: fantasy;
+    text-align: left;
+    margin-left: 35px;
+    color: white;
+}
+.insta
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+.image
+{
+    width: 355px;
+    height: 555px;
+    margin-top: -615px;
+    margin-right: 95px;
+}
+.discord
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    margin-top: -485px;
+    margin-right: 65px;
+}
+.image1
+{
+    width: 455px;
+    height: 515px;
+}
+.image2
+{
+    width: 455px;
+    height: 515px;
+}
