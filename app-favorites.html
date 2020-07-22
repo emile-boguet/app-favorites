@@ -1,58 +1,114 @@
-<html>
+<!DOCTYPE html>
+<html lang="FR">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app-favorites.css">
-    <link rel="shortcut icon" type="image/x-icon" href="Logo.png">
-    <title>Applications Favorites</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/app-favorites/logo.png">
+    <title>Accueil | Applications Favorites</title>
 </head>
 
 <body>
+
+    <!-- HEADER -->
+
     <header>
-        <a class="p1" href="app-favorites.html" title="Applications favorites">
-            <p class="p1"><u>Applications Favorites</u>
-        </a>
+
+        <!-- NAVIGATION HEADER -->
+
+        <nav>
+
+            <ul>
+                <li><a class="a-nav" href="app-favorites.html">Accueil</a></li>
+            </ul>
+
+            <ul>
+                <li><a class="a-nav" href="app1.html">Discord</a></li>
+            </ul>
+
+            <ul>
+                <li><a class="a-nav" href="app2.html">Facebook</a></li>
+            </ul>
+
+            <ul>
+                <li><a class="a-nav" href="app3.html">Instagram</a></li>
+            </ul>
+
+        </nav>
+
     </header>
+
+    <!-- MAIN -->
+
     <main>
-        <div class="gauche">
-            <p class="p2"> J'ai choisi de vous présentez trois applications sur lesquelles je suis connecté tout le
-                temps.<br>La première <u>I Love Hue</u> étant une application de jeu très colorée,<br>
-                La seconde <u>Instagram</u> étant un réseau social fonctionnant via une<br>application
-                se basant sur le partage de vidéos|photos.<br>
-                La troisème <u>Discord</u> étant une application elle aussi sociale permettant<br>de
-                discuter à l'écrit comme à l'oral entre ami|e|s, de partager des liens, vidéos, photos ect.<br>
-                Voici le classement de chacune d'entre elles se trouvant sur l'Apple Store :
-        </div>
-            </p>
-            <div class="avis">
-                    <img class="image" src="AvisiLhue.jpg">
-                    <img class="image" src="AvisInsta.jpg">
-                    <img class="image" src="AvisDiscord.jpg">
-            </div>
-        
-        <div class="logo">
-            <a href="app1.html" title="I Love Hue">
-                <img class="logos" src="iLhue.png">
-                <p class="sloganiLhue"><u>I Love Hue</u></p>
-            </a>
-            <p class="iLhue">Un jeu coloré et satisfaisant !</p>
-            <a href="app2.html" title="Instagram">
-                <img class="logos" src="Insta.png">
-                <p class="insta"><u>Instagram</u></p>
-            </a>
-            <p class="sloganinsta">La vie partagée en un clique !</p>
-            <a href="app3.html" title="Discord">
-                <img class="logos" src="Discord.png">
-                <p class="discord"><u>Discord</u></p>
-            </a>
-            <p class="slogandiscord">Les ami|e|s à portée de main !</p>
-        </div>
+
+        <!-- DIAPORAMA -->
+
+        <section>
+
+            <h1>Applications Favorites</h1>
+            <article class="diaporama">
+
+                <input type="radio" id="btn-1" name="toggle" checked>
+                <input type="radio" id="btn-2" name="toggle">
+                <input type="radio" id="btn-3" name="toggle">
+
+                <article class="boutons">
+                    <label for="btn-1"></label>
+                    <label for="btn-2"></label>
+                    <label for="btn-3"></label>
+                </article>
+
+                <article class="interieur">
+
+                    <article id="bordure">
+                        <div class="defilement">
+                            <img class="img" id="img1" src="images/discord/discord.jpg" alt="Arrière plan Discord">
+                            <img class="img" id="img2" src="images/facebook/facebook.jpg" alt="Arrière plan Facebook">
+                            <img class="img" id="img3" src="images/instagram/instagram.jpg" alt="Arrière plan Instagram">
+                        </div>
+                    </article>
+
+                </article>
+
+        </section>
+
     </main>
 
-
-
+    <!-- FOOTER -->
 
     <footer>
+
+        <!-- LOGOS -->
+
+        <article id="flex-logos">
+
+            <a id="a-logodiscord" href="https://discord.com/" target="_blank">
+                <img id="logo-discord" src="images/app-favorites/logodiscordnoir.png" alt="Logo Discord" /></a>
+            <a id="a-logofacebook" href="https://www.facebook.com/" target="_blank">
+                <img id="logo-facebook" src="images/app-favorites/logofacebooknoir.png" alt="Logo Facebook" /></a>
+
+            <a id="a-logoinstagram" href="https://instagram.com/" target="_blank">
+                <img id="logo-instagram" src="images/app-favorites/logoinstagramnoir.png" alt="Logo Instagram" /></a>
+
+        </article>
+
+        <!-- NAVIGATION FOOTER -->
+
+        <article id="flex-afooter">
+
+
+            <a class="a-footer" href="app1.html">Discord</a>
+
+            <a class="a-footer" href="app2.html">Facebook</a>
+
+            <a class="a-footer" href="app3.html">Instagram</a>
+
+        </article>
+
     </footer>
+
 </body>
+
+</html>

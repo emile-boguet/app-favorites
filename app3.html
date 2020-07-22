@@ -1,57 +1,122 @@
-<html>
+<!DOCTYPE html>
+<html lang="FR">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app3.css">
-    <link rel="shortcut icon" type="image/x-icon" href="Discord.png">
-    <title>Discord</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/instagram/logoinstagram.png">
+    <title>Instagram | App Favorite 3</title>
 </head>
 
 <body>
-    <div class="body2">
-        <header>
-            <a class="p1" href="app-favorites.html" title="Applications favorites">
-                <p class="p1"><u>Application favorite 3</u></p>
-            </a>
-        </header>
-        <main>
-            <div class="gauche">
-                <p class="p2"><b><u>Discord</u>, un monde social à portée de mains.</b></p>
-                <div class="paragraphe3">
-                    <p class="p3">Ce réseau social est le meilleur que j’ai pu trouver. Une<br>
-                        application simple d’utilisation qui permet de regrouper<br>un maximum de personnes sans
-                        difficulté
-                        grâce aux différents salons.
-                        <br>Personnellement je l’utilise pour retrouver mes amis dans différentes catégories.<br>Le mode
-                        sombre permet d’y rester jour et nuit
-                        <br>sans être pour autant fatigué. Le statut permet de vite repérer<br> avec qui je pourrais
-                        faire
-                        la prochaine partie de mon jeu du moment.
-                        De plus,<br>les émojis personnalisables développe la créativité ! Tant pour le personnel que
-                        <br>pour le professionnel je conseil <u>Discord</u>, voici le lien téléchargeable :
-                    </p>
-                </div>
-                <div class="paragraphe4-5">
-                    <a href="https://apps.apple.com/fr/app/discord/id985746746" target="_blank"
-                        title="Lien Application IOS">
-                        <img class="logo" src="Discord.png">
-                        <p class="p4">App Discord|IOS</p>
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.discord" target="_blank"
-                        title="Lien Application ANDROID">
-                        <img class="logo" src="Discord.png">
-                        <p class="p5"><br>App Discord|ANDROID</p>
-                    </a>
-                </div>
-            </div>
-            <div class="discord">
-                <img class="image1" src="discord1.jpg">
-                <img class="image2" src="discord2.jpg">
-            </div>
-        </main>
-        <footer>
-        </footer>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <!-- NAVIGATION HEADER -->
+
+        <nav>
+
+            <ul>
+                <li><a class="a-nav" href="app-favorites.html">Accueil</a></li>
+            </ul>
+
+            <ul>
+                <li><a class="a-nav" href="app1.html">Discord</a></li>
+            </ul>
+
+            <ul>
+                <li><a class="a-nav" href="app2.html">Facebook</a></li>
+            </ul>
+
+            <ul>
+                <li><a class="a-nav" href="app3.html">Instagram</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- MAIN -->
+
+    <main>
+
+        <!-- DIAPORAMA -->
+
+        <section>
+
+            <h1>📷<br />« Partage et communique qu'importe la distance »</h1>
+            <p id="description"></p>
+            <article class="diaporama">
+
+                <input type="radio" id="btn-1" name="toggle" checked>
+                <input type="radio" id="btn-2" name="toggle">
+                <input type="radio" id="btn-3" name="toggle">
+
+                <article class="boutons">
+                    <label for="btn-1"></label>
+                    <label for="btn-2"></label>
+                    <label for="btn-3"></label>
+                </article>
+
+                <article class="interieur">
+
+                    <article id="bordure">
+                        <div class="defilement">
+                            <img class="img" id="img1" src="images/instagram/instagram.jpg"
+                                alt="Arrière plan Instagram">
+                            <img class="img" id="img2" src="images/instagram/diapo1.jpg"
+                                alt="Capture d'écran réseau social Instagram">
+                            <img class="img" id="img3" src="images/instagram/diapo2.jpg"
+                                alt="Capture d'écran réseau social Instagram">
+                        </div>
+                    </article>
+
+                </article>
+
+                <a class="a" href="https://apps.apple.com/fr/app/instagram/id389801252" target="_blank">Apple Store</a>
+                <a class="a" href="https://play.google.com/store/apps/details?id=com.instagram.android&gl=FR"
+                    target="_blank">Google Play</a>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <!-- LOGOS -->
+
+        <article id="flex-logos">
+
+            <a id="a-logodiscord" href="https://discord.com/" target="_blank">
+                <img id="logo-discord" src="images/discord/logodiscord.png" alt="Logo Discord" /></a>
+            <a id="a-logofacebook" href="https://fr-fr.facebook.com/instagram/" target="_blank">
+                <img id="logo-facebook" src="images/facebook/logofacebook.png" alt="Logo Facebook" /></a>
+
+            <a id="a-logoinstagram" href="https://www.instagram.com/?hl=fr" target="_blank">
+                <img id="logo-instagram" src="images/instagram/logoinstagram.png" alt="Logo Instagram" /></a>
+
+        </article>
+
+        <!-- NAVIGATION FOOTER -->
+
+        <article id="flex-afooter">
+
+
+            <a class="a-footer" href="app1.html">Discord</a>
+
+            <a class="a-footer" href="app2.html">Facebook</a>
+
+            <a class="a-footer" href="app3.html">Instagram</a>
+
+        </article>
+
+    </footer>
+
 </body>
 
 </html>
