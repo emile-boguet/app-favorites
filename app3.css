@@ -48,6 +48,7 @@ nav
 nav ul
 {
     list-style-type: none;
+    padding: 20px;
 }
 
 nav ul li:hover
@@ -70,8 +71,9 @@ nav ul li:hover
 main
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: fixed;
     top: 15%;
     left: 0;
@@ -170,13 +172,34 @@ h1
     height: 320px;
 }
 
-.a
+/* TELECHARGEMENTS, LOGOS */
+
+#flex-main
 {
-    text-align: center;
-    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-main
+{
     font-size: 11px;
     color: white;
-    text-shadow: white 0.1px 0.1px 3px;
+    text-decoration: none;
+    width: 4%;
+    margin-top: 6%;
+    padding: 0 2%;
+}
+
+.logos-main
+{
+    width: 100%;
+}
+
+.logos-main:hover
+{
+    transform: scale(1.1);
 }
 
 /* FOOTER */
