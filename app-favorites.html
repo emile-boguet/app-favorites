@@ -15,27 +15,41 @@
 
     <header>
 
-        <!-- NAVIGATION HEADER -->
+        <!-- HEADER GAUCHE -->
 
-        <nav>
+        <section id="header-gauche">
 
-            <ul>
-                <li><a class="a-nav" href="app-favorites.html">Accueil</a></li>
-            </ul>
+            <h1>Applications Favorites</h1>
 
-            <ul>
-                <li><a class="a-nav" href="app1.html">Discord</a></li>
-            </ul>
+        </section>
 
-            <ul>
-                <li><a class="a-nav" href="app2.html">Facebook</a></li>
-            </ul>
+        <!-- HEADER DROITE -->
 
-            <ul>
-                <li><a class="a-nav" href="app3.html">Instagram</a></li>
-            </ul>
+        <section id="header-droite">
 
-        </nav>
+            <!-- BARRE NAVIGATION -->
+
+            <nav>
+
+                <ul>
+                    <li><a class="a-barrenav" href="app-favorites.html">Accueil</a></li>
+                </ul>
+
+                <ul>
+                    <li><a class="a-barrenav" href="app1.html">Discord</a></li>
+                </ul>
+
+                <ul>
+                    <li><a class="a-barrenav" href="app2.html">Facebook</a></li>
+                </ul>
+
+                <ul>
+                    <li><a class="a-barrenav" href="app3.html">Instagram</a></li>
+                </ul>
+
+            </nav>
+
+        </section>
 
     </header>
 
@@ -43,34 +57,29 @@
 
     <main>
 
-        <!-- DIAPORAMA -->
+        <!-- BLOCS -->
 
-        <section>
+        <section class="blocs">
 
-            <h1>Applications Favorites</h1>
-            <article class="diaporama">
+            <img class="img-blocs" src="images/discord/discord.jpg" alt="Discord">
 
-                <input type="radio" id="btn-1" name="toggle" checked>
-                <input type="radio" id="btn-2" name="toggle">
-                <input type="radio" id="btn-3" name="toggle">
+            <p>« Une communauté de passionné|e|s »</p>
 
-                <article class="boutons">
-                    <label for="btn-1"></label>
-                    <label for="btn-2"></label>
-                    <label for="btn-3"></label>
-                </article>
+        </section>
 
-                <article class="interieur">
+        <section class="blocs">
 
-                    <article id="bordure">
-                        <div class="defilement">
-                            <img class="img" id="img1" src="images/discord/discord.jpg" alt="Arrière plan Discord">
-                            <img class="img" id="img2" src="images/facebook/facebook.jpg" alt="Arrière plan Facebook">
-                            <img class="img" id="img3" src="images/instagram/instagram.jpg" alt="Arrière plan Instagram">
-                        </div>
-                    </article>
+            <img class="img-blocs" src="images/facebook/facebook.jpg" alt="Facebook">
 
-                </article>
+            <p>« Les ami|e|s à portée de main »</p>
+
+        </section>
+
+        <section class="blocs">
+
+            <img class="img-blocs" src="images/instagram/instagram.jpg" alt="Instagram">
+
+            <p>« Photographie, écrit, publie »</p>
 
         </section>
 
@@ -80,32 +89,17 @@
 
     <footer>
 
-        <!-- LOGOS -->
+        <a class="a-footer" href="https://discord.com/" target="_blank">
+            <img class="imgs-footer" alt="Logo Discord" src="images/discord/logodiscord.png">
+        </a>
 
-        <article id="flex-logos">
+        <a class="a-footer" href="https://facebook.com/" target="_blank">
+            <img class="imgs-footer" alt="Logo Facebook" src="images/facebook/logofacebook.png">
+        </a>
 
-            <a id="a-logodiscord" href="https://discord.com/" target="_blank">
-                <img id="logo-discord" src="images/app-favorites/logodiscordnoir.png" alt="Logo Discord" /></a>
-            <a id="a-logofacebook" href="https://www.facebook.com/" target="_blank">
-                <img id="logo-facebook" src="images/app-favorites/logofacebooknoir.png" alt="Logo Facebook" /></a>
-
-            <a id="a-logoinstagram" href="https://instagram.com/" target="_blank">
-                <img id="logo-instagram" src="images/app-favorites/logoinstagramnoir.png" alt="Logo Instagram" /></a>
-
-        </article>
-
-        <!-- NAVIGATION FOOTER -->
-
-        <article id="flex-afooter">
-
-
-            <a class="a-footer" href="app1.html">Discord</a>
-
-            <a class="a-footer" href="app2.html">Facebook</a>
-
-            <a class="a-footer" href="app3.html">Instagram</a>
-
-        </article>
+        <a class="a-footer" href="https://instagram.com/" target="_blank">
+            <img class="imgs-footer" alt="Logo Instagram" src="images/instagram/logoinstagram.png">
+        </a>
 
     </footer>
 

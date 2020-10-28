@@ -15,27 +15,41 @@
 
     <header>
 
-        <!-- NAVIGATION HEADER -->
+        <!-- HEADER GAUCHE -->
 
-        <nav>
+        <section id="header-gauche">
 
-            <ul>
-                <li><a class="a-nav" href="app-favorites.html">Accueil</a></li>
-            </ul>
+            <h1>Discord</h1>
 
-            <ul>
-                <li><a class="a-nav" href="app1.html">Discord</a></li>
-            </ul>
+        </section>
 
-            <ul>
-                <li><a class="a-nav" href="app2.html">Facebook</a></li>
-            </ul>
+        <!-- HEADER DROITE -->
 
-            <ul>
-                <li><a class="a-nav" href="app3.html">Instagram</a></li>
-            </ul>
+        <section id="header-droite">
 
-        </nav>
+            <!-- BARRE NAVIGATION -->
+
+            <nav>
+
+                <ul>
+                    <li><a class="a-barrenav" href="app-favorites.html">Accueil</a></li>
+                </ul>
+
+                <ul>
+                    <li><a class="a-barrenav" href="app1.html">Discord</a></li>
+                </ul>
+
+                <ul>
+                    <li><a class="a-barrenav" href="app2.html">Facebook</a></li>
+                </ul>
+
+                <ul>
+                    <li><a class="a-barrenav" href="app3.html">Instagram</a></li>
+                </ul>
+
+            </nav>
+
+        </section>
 
     </header>
 
@@ -43,50 +57,35 @@
 
     <main>
 
-        <!-- DIAPORAMA -->
+        <!-- BLOCS SCREENS -->
 
-        <section>
+        <article id="flex-blocs">
 
-            <h1>🎮<br />« Une communauté de diverses passions »</h1>
+            <img class="img-blocs" src="images/discord/discord1.jpg" alt="Screen Discord">
 
-            <article class="diaporama">
-
-                <input type="radio" id="btn-1" name="toggle" checked>
-                <input type="radio" id="btn-2" name="toggle">
-                <input type="radio" id="btn-3" name="toggle">
-
-                <article class="boutons">
-                    <label for="btn-1"></label>
-                    <label for="btn-2"></label>
-                    <label for="btn-3"></label>
-                </article>
-
-                <article class="interieur">
-
-                    <article id="bordure">
-                        <div class="defilement">
-                            <img class="img" id="img1" src="images/discord/discord.jpg" alt="Arrière plan Discord">
-                            <img class="img" id="img2" src="images/discord/discord1.jpg"
-                                alt="Capture d'écran réseau social Discord">
-                            <img class="img" id="img3" src="images/discord/discord2.jpg"
-                                alt="Capture d'écran réseau social Discord">
-                        </div>
-                    </article>
-
-                </article>
-
-        </section>
-
-        <!-- TELECHARGEMENTS, LOGOS -->
-
-        <article id="flex-main">
-
-        <a class="a-main" href="https://apps.apple.com/fr/app/discord/id985746746" target="_blank">
-            <img class="logos-main" src="images/discord/appstore.png" alt="Logo AppStore"></a>
-        <a class="a-main" href="https://play.google.com/store/apps/details?id=com.discord&hl=fr" target="_blank">
-            <img class="logos-main" src="images/discord/googleplay.png" alt="Logo GooglePlay"></a>
+            <img class="img-blocs" src="images/discord/discord2.jpg" alt="Screen Discord">
 
         </article>
+
+        <!-- BLOCS TELECHARGEMENTS -->
+
+        <section id="bloc">
+
+            <p><b>Téléchargements</b></p>
+
+            <article id="flex-bloc">
+
+                <a class="a-bloc" href="https://apps.apple.com/fr/app/discord/id985746746" target="_blank">
+                    <img class="img-bloc" src="images/discord/appstore.png" alt="Logo AppStore">
+                </a>
+
+                <a class="a-bloc" href="https://play.google.com/store/apps/details?id=com.discord&hl=fr"
+                    target="_blank"><img class="img-bloc" src="images/discord/googleplay.png" alt="Logo GooglePlay">
+                </a>
+
+            </article>
+
+        </section>
 
     </main>
 
@@ -94,35 +93,23 @@
 
     <footer>
 
-        <!-- LOGOS -->
+        <a class="a-footer" href="https://discord.com/" target="_blank">
+            <img class="imgs-footer" alt="Logo Discord" src="images/discord/logodiscord.png">
+        </a>
 
-        <article id="flex-logos">
+        <a class="a-footer" href="https://facebook.com/" target="_blank">
+            <img class="imgs-footer" alt="Logo Facebook" src="images/facebook/logofacebook.png">
+        </a>
 
-            <a id="a-logodiscord" href="https://discord.com/" target="_blank">
-                <img id="logo-discord" src="images/discord/logodiscord.png" alt="Logo Discord" /></a>
-            <a id="a-logofacebook" href="https://fr-fr.facebook.com/DiscordServers/" target="_blank">
-                <img id="logo-facebook" src="images/facebook/logofacebook.png" alt="Logo Facebook" /></a>
-
-            <a id="a-logoinstagram" href="https://www.instagram.com/discord/" target="_blank">
-                <img id="logo-instagram" src="images/instagram/logoinstagram.png" alt="Logo Instagram" /></a>
-
-        </article>
-
-        <!-- NAVIGATION FOOTER -->
-
-        <article id="flex-afooter">
-
-
-            <a class="a-footer" href="app1.html">Discord</a>
-
-            <a class="a-footer" href="app2.html">Facebook</a>
-
-            <a class="a-footer" href="app3.html">Instagram</a>
-
-        </article>
+        <a class="a-footer" href="https://instagram.com/" target="_blank">
+            <img class="imgs-footer" alt="Logo Instagram" src="images/instagram/logoinstagram.png">
+        </a>
 
     </footer>
 
+</body>
+
+</html>
 </body>
 
 </html>
